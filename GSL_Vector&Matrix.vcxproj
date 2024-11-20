@@ -141,10 +141,10 @@
     <ClCompile Include="Question2_Rot_Matrix.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Question1.c">
+    <ClCompile Include="Question1_atan2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Question3.c" />
+    <ClCompile Include="Question3_Matrix_multiple.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="blas_win32.dll" />

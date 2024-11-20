@@ -18,13 +18,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Question1.c">
+    <ClCompile Include="Question1_atan2.c">
       <Filter>源文件\C_Code</Filter>
     </ClCompile>
     <ClCompile Include="Question2_Rot_Matrix.c">
       <Filter>源文件\C_Code</Filter>
     </ClCompile>
-    <ClCompile Include="Question3.c">
+    <ClCompile Include="Question3_Matrix_multiple.c">
       <Filter>源文件\C_Code</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<gsl/gsl_blas.h>
-int
+#define PI 3.14159265
 main(void)
 {
 	double a[] = { 0.11,0.12,0.13,
