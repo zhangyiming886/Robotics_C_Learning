@@ -144,7 +144,10 @@
     <ClCompile Include="Question1_atan2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Question3_Matrix_multiple.c" />
+    <ClCompile Include="Question3_Matrix_multiple.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Question4_fix_axis.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="blas_win32.dll" />

@@ -27,6 +27,9 @@
     <ClCompile Include="Question3_Matrix_multiple.c">
       <Filter>源文件\C_Code</Filter>
     </ClCompile>
+    <ClCompile Include="Question4_fix_axis.c">
+      <Filter>源文件\C_Code</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

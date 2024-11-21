@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<gsl/gsl_blas.h>
 #define PI 3.14159265
-main(void)
+void main(void)
 {
 	double a[] = { 0.11,0.12,0.13,
 	0.21,0.22,0.23 };
@@ -19,5 +19,11 @@ main(void)
 		0.0, &C.matrix);
 	printf("[%g, %g\n", c[0], c[1]);
 	printf(" %g, %g ]\n", c[2], c[3]);
+	for (int i = 0;i < 3;i++) {
+		for (int j = 0;j < 3;j++) {
+			printf("%g	", gsl_matrix_get(&A.matrix, i, j));
+		}
+		printf("\n");
+	}
 	return 0;
 }
