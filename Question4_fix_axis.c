@@ -35,11 +35,8 @@ void Roty(double alpha, gsl_matrix* Ry) {
     gsl_matrix_set(Ry, 2, 1, 0);
     gsl_matrix_set(Ry, 2, 2, cos(alpha));
 }
-
-
-
 int main() {
-    double k[] = { 1,2,3 };
+    double k[] = { 7,8,9 };
     double kx, ky, kz;
     kx = k[0];ky = k[1];kz = k[2];
     double alpha = atan2(kz, kx);
